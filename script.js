@@ -7,7 +7,8 @@ let a=typeof(value1);
 	}
 	else if(a===b && a!=NaN && b!=NaN){
 		return true;
-	}else{
+	}
+	else{
 		return false;
 	}	
 }
